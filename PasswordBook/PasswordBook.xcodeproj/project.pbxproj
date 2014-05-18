@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B070FCF1928407E00DD52AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B070FCE1928407E00DD52AB /* Foundation.framework */; };
+		4B070FD11928407E00DD52AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B070FD01928407E00DD52AB /* CoreGraphics.framework */; };
+		4B070FD31928407E00DD52AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B070FD21928407E00DD52AB /* UIKit.framework */; };
+		4B070FDB1928407E00DD52AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B070FDA1928407E00DD52AB /* main.m */; };
+		4B070FDF1928407E00DD52AB /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B070FDE1928407E00DD52AB /* MFAppDelegate.m */; };
+		4B070FE11928407E00DD52AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B070FE01928407E00DD52AB /* Images.xcassets */; };
+		4B070FE81928407E00DD52AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B070FE71928407E00DD52AB /* XCTest.framework */; };
+		4B070FE91928407E00DD52AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B070FCE1928407E00DD52AB /* Foundation.framework */; };
+		4B070FEA1928407E00DD52AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B070FD21928407E00DD52AB /* UIKit.framework */; };
+		4B070FF41928407E00DD52AB /* PasswordBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B070FF31928407E00DD52AB /* PasswordBookTests.m */; };
+		4B0710041928434500DD52AB /* MFLetMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0710021928434500DD52AB /* MFLetMenuViewController.m */; };
+		4B0710051928434500DD52AB /* MFLetMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0710031928434500DD52AB /* MFLetMenuViewController.xib */; };
+		4B07100A1928493300DD52AB /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0710091928493300DD52AB /* MFBaseViewController.m */; };
+		4B07100E1928498100DD52AB /* MFAccountListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07100C1928498100DD52AB /* MFAccountListViewController.m */; };
+		4B07100F1928498100DD52AB /* MFAccountListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B07100D1928498100DD52AB /* MFAccountListViewController.xib */; };
+		4B07101219284B9200DD52AB /* NSObject+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07101119284B9200DD52AB /* NSObject+AppDelegate.m */; };
+		4B071018192856CC00DD52AB /* MFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B071016192856CB00DD52AB /* MFTestViewController.m */; };
+		4B071019192856CC00DD52AB /* MFTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B071017192856CC00DD52AB /* MFTestViewController.xib */; };
+		4B07101B19285F6600DD52AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B07101A19285F6600DD52AB /* Localizable.strings */; };
+		4B0710211928614500DD52AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B0710201928614500DD52AB /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B070FEB1928407E00DD52AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B070FC31928407E00DD52AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B070FCA1928407E00DD52AB;
+			remoteInfo = PasswordBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B070FCB1928407E00DD52AB /* PasswordBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B070FCE1928407E00DD52AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B070FD01928407E00DD52AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B070FD21928407E00DD52AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B070FD61928407E00DD52AB /* PasswordBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordBook-Info.plist"; sourceTree = "<group>"; };
+		4B070FDA1928407E00DD52AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B070FDC1928407E00DD52AB /* PasswordBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasswordBook-Prefix.pch"; sourceTree = "<group>"; };
+		4B070FDD1928407E00DD52AB /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		4B070FDE1928407E00DD52AB /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		4B070FE01928407E00DD52AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B070FE61928407E00DD52AB /* PasswordBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B070FE71928407E00DD52AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B070FEF1928407E00DD52AB /* PasswordBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordBookTests-Info.plist"; sourceTree = "<group>"; };
+		4B070FF31928407E00DD52AB /* PasswordBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordBookTests.m; sourceTree = "<group>"; };
+		4B0710011928434500DD52AB /* MFLetMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLetMenuViewController.h; sourceTree = "<group>"; };
+		4B0710021928434500DD52AB /* MFLetMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLetMenuViewController.m; sourceTree = "<group>"; };
+		4B0710031928434500DD52AB /* MFLetMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFLetMenuViewController.xib; sourceTree = "<group>"; };
+		4B0710081928493300DD52AB /* MFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseViewController.h; sourceTree = "<group>"; };
+		4B0710091928493300DD52AB /* MFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseViewController.m; sourceTree = "<group>"; };
+		4B07100B1928498100DD52AB /* MFAccountListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAccountListViewController.h; sourceTree = "<group>"; };
+		4B07100C1928498100DD52AB /* MFAccountListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAccountListViewController.m; sourceTree = "<group>"; };
+		4B07100D1928498100DD52AB /* MFAccountListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAccountListViewController.xib; sourceTree = "<group>"; };
+		4B07101019284B9200DD52AB /* NSObject+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppDelegate.h"; sourceTree = "<group>"; };
+		4B07101119284B9200DD52AB /* NSObject+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AppDelegate.m"; sourceTree = "<group>"; };
+		4B07101419284E5A00DD52AB /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		4B071015192856CB00DD52AB /* MFTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTestViewController.h; sourceTree = "<group>"; };
+		4B071016192856CB00DD52AB /* MFTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTestViewController.m; sourceTree = "<group>"; };
+		4B071017192856CC00DD52AB /* MFTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFTestViewController.xib; sourceTree = "<group>"; };
+		4B07101A19285F6600DD52AB /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4B0710201928614500DD52AB /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B070FC81928407E00DD52AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B070FD11928407E00DD52AB /* CoreGraphics.framework in Frameworks */,
+				4B070FD31928407E00DD52AB /* UIKit.framework in Frameworks */,
+				4B070FCF1928407E00DD52AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B070FE31928407E00DD52AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B070FE81928407E00DD52AB /* XCTest.framework in Frameworks */,
+				4B070FEA1928407E00DD52AB /* UIKit.framework in Frameworks */,
+				4B070FE91928407E00DD52AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B070FC21928407E00DD52AB = {
+			isa = PBXGroup;
+			children = (
+				4B070FD41928407E00DD52AB /* PasswordBook */,
+				4B070FED1928407E00DD52AB /* PasswordBookTests */,
+				4B070FCD1928407E00DD52AB /* Frameworks */,
+				4B070FCC1928407E00DD52AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B070FCC1928407E00DD52AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B070FCB1928407E00DD52AB /* PasswordBook.app */,
+				4B070FE61928407E00DD52AB /* PasswordBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B070FCD1928407E00DD52AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B070FCE1928407E00DD52AB /* Foundation.framework */,
+				4B070FD01928407E00DD52AB /* CoreGraphics.framework */,
+				4B070FD21928407E00DD52AB /* UIKit.framework */,
+				4B070FE71928407E00DD52AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B070FD41928407E00DD52AB /* PasswordBook */ = {
+			isa = PBXGroup;
+			children = (
+				4B070FFF1928431A00DD52AB /* Classes */,
+				4B070FE01928407E00DD52AB /* Images.xcassets */,
+				4B070FD51928407E00DD52AB /* Supporting Files */,
+			);
+			path = PasswordBook;
+			sourceTree = "<group>";
+		};
+		4B070FD51928407E00DD52AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B070FD61928407E00DD52AB /* PasswordBook-Info.plist */,
+				4B070FDA1928407E00DD52AB /* main.m */,
+				4B070FDC1928407E00DD52AB /* PasswordBook-Prefix.pch */,
+				4B07101A19285F6600DD52AB /* Localizable.strings */,
+				4B0710201928614500DD52AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B070FED1928407E00DD52AB /* PasswordBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B070FF31928407E00DD52AB /* PasswordBookTests.m */,
+				4B070FEE1928407E00DD52AB /* Supporting Files */,
+			);
+			path = PasswordBookTests;
+			sourceTree = "<group>";
+		};
+		4B070FEE1928407E00DD52AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B070FEF1928407E00DD52AB /* PasswordBookTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B070FFF1928431A00DD52AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B07101319284E3F00DD52AB /* Constant */,
+				4B0710001928432C00DD52AB /* ViewController */,
+				4B070FDD1928407E00DD52AB /* MFAppDelegate.h */,
+				4B070FDE1928407E00DD52AB /* MFAppDelegate.m */,
+				4B07101019284B9200DD52AB /* NSObject+AppDelegate.h */,
+				4B07101119284B9200DD52AB /* NSObject+AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4B0710001928432C00DD52AB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B0710011928434500DD52AB /* MFLetMenuViewController.h */,
+				4B0710021928434500DD52AB /* MFLetMenuViewController.m */,
+				4B0710031928434500DD52AB /* MFLetMenuViewController.xib */,
+				4B0710081928493300DD52AB /* MFBaseViewController.h */,
+				4B0710091928493300DD52AB /* MFBaseViewController.m */,
+				4B07100B1928498100DD52AB /* MFAccountListViewController.h */,
+				4B07100C1928498100DD52AB /* MFAccountListViewController.m */,
+				4B07100D1928498100DD52AB /* MFAccountListViewController.xib */,
+				4B071015192856CB00DD52AB /* MFTestViewController.h */,
+				4B071016192856CB00DD52AB /* MFTestViewController.m */,
+				4B071017192856CC00DD52AB /* MFTestViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4B07101319284E3F00DD52AB /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4B07101419284E5A00DD52AB /* Constant.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B070FCA1928407E00DD52AB /* PasswordBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B070FF71928407E00DD52AB /* Build configuration list for PBXNativeTarget "PasswordBook" */;
+			buildPhases = (
+				4B070FC71928407E00DD52AB /* Sources */,
+				4B070FC81928407E00DD52AB /* Frameworks */,
+				4B070FC91928407E00DD52AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordBook;
+			productName = PasswordBook;
+			productReference = 4B070FCB1928407E00DD52AB /* PasswordBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B070FE51928407E00DD52AB /* PasswordBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B070FFA1928407E00DD52AB /* Build configuration list for PBXNativeTarget "PasswordBookTests" */;
+			buildPhases = (
+				4B070FE21928407E00DD52AB /* Sources */,
+				4B070FE31928407E00DD52AB /* Frameworks */,
+				4B070FE41928407E00DD52AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B070FEC1928407E00DD52AB /* PBXTargetDependency */,
+			);
+			name = PasswordBookTests;
+			productName = PasswordBookTests;
+			productReference = 4B070FE61928407E00DD52AB /* PasswordBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B070FC31928407E00DD52AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = monkeyfriendofchina;
+				TargetAttributes = {
+					4B070FE51928407E00DD52AB = {
+						TestTargetID = 4B070FCA1928407E00DD52AB;
+					};
+				};
+			};
+			buildConfigurationList = 4B070FC61928407E00DD52AB /* Build configuration list for PBXProject "PasswordBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 4B070FC21928407E00DD52AB;
+			productRefGroup = 4B070FCC1928407E00DD52AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B070FCA1928407E00DD52AB /* PasswordBook */,
+				4B070FE51928407E00DD52AB /* PasswordBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B070FC91928407E00DD52AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B07101B19285F6600DD52AB /* Localizable.strings in Resources */,
+				4B0710211928614500DD52AB /* InfoPlist.strings in Resources */,
+				4B070FE11928407E00DD52AB /* Images.xcassets in Resources */,
+				4B0710051928434500DD52AB /* MFLetMenuViewController.xib in Resources */,
+				4B07100F1928498100DD52AB /* MFAccountListViewController.xib in Resources */,
+				4B071019192856CC00DD52AB /* MFTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B070FE41928407E00DD52AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B070FC71928407E00DD52AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0710041928434500DD52AB /* MFLetMenuViewController.m in Sources */,
+				4B071018192856CC00DD52AB /* MFTestViewController.m in Sources */,
+				4B070FDB1928407E00DD52AB /* main.m in Sources */,
+				4B07100E1928498100DD52AB /* MFAccountListViewController.m in Sources */,
+				4B07100A1928493300DD52AB /* MFBaseViewController.m in Sources */,
+				4B07101219284B9200DD52AB /* NSObject+AppDelegate.m in Sources */,
+				4B070FDF1928407E00DD52AB /* MFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B070FE21928407E00DD52AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B070FF41928407E00DD52AB /* PasswordBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B070FEC1928407E00DD52AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B070FCA1928407E00DD52AB /* PasswordBook */;
+			targetProxy = 4B070FEB1928407E00DD52AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B070FF51928407E00DD52AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B070FF61928407E00DD52AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B070FF81928407E00DD52AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordBook/PasswordBook-Prefix.pch";
+				INFOPLIST_FILE = "PasswordBook/PasswordBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B070FF91928407E00DD52AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordBook/PasswordBook-Prefix.pch";
+				INFOPLIST_FILE = "PasswordBook/PasswordBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B070FFB1928407E00DD52AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasswordBook.app/PasswordBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordBook/PasswordBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PasswordBookTests/PasswordBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B070FFC1928407E00DD52AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasswordBook.app/PasswordBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordBook/PasswordBook-Prefix.pch";
+				INFOPLIST_FILE = "PasswordBookTests/PasswordBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B070FC61928407E00DD52AB /* Build configuration list for PBXProject "PasswordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B070FF51928407E00DD52AB /* Debug */,
+				4B070FF61928407E00DD52AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B070FF71928407E00DD52AB /* Build configuration list for PBXNativeTarget "PasswordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B070FF81928407E00DD52AB /* Debug */,
+				4B070FF91928407E00DD52AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B070FFA1928407E00DD52AB /* Build configuration list for PBXNativeTarget "PasswordBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B070FFB1928407E00DD52AB /* Debug */,
+				4B070FFC1928407E00DD52AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B070FC31928407E00DD52AB /* Project object */;
+}
